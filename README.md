@@ -33,3 +33,18 @@ myInt = 3;
 - **int** Whole numbers *...-1, 0, 1, 2...*
 - **float** Decimal numbers *14.3325*
 - **char** Single Characters *'A', 'B', 'C', 'D'*
+
+##### Doing math
+
+### Pointers
+Pointers are both a complex and powerful feature of C/C++. For this workshop, just know that a pointer points to a variable. It's like a bookmark for a website. You can use the bookmark across all your devices, and it will still go the same website. We will use pointers for window creation and rendering sprites later on.
+
+### Control Statements
+Control statments are used to control the flow of code by testing conditions. The most basic type of control statement is the if/else. The if or if/else statement is used to test a condition for being true or false, then executing code for the right situation.
+```c
+float pi = 3.14;
+if (pi = 3.14) {
+  printf("We have PI!");
+}
+```
+In this case, our code would print "We have PI!"
